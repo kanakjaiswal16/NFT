@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# NFT
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Created a smart contract to mint NFT.
 
-Try running some of the following tasks:
+Flow:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+1. Upload the picture you desire to create an NFT for onto IPFS using pinata.
+2. Get link of that image.
+3. Copy and paste the link into the image section of the nft-metadata JSON file.
+4. deploy the contract.
 ```
